@@ -1,5 +1,5 @@
 // Write your code here
-const products = ['Laptop', 'Phone', 'Headphones', 'Monitor', 'Keyboard']; {
+const products = ['Laptop', 'Phone', 'Headphones', 'Monitor', 'Keyboard']; 
 
 function logFirstProduct(products) {
   console.log(products[0]);
@@ -12,7 +12,7 @@ function removeLastProduct(products) {
   products.pop();
   console.log(products);
 }
-}
+
 
 // Export the necessary parts for testing
 module.exports = {
@@ -20,4 +20,4 @@ module.exports = {
   updateProductName: typeof updateProductName !== 'undefined' ? updateProductName : undefined,
   removeLastProduct: typeof removeLastProduct !== 'undefined' ? removeLastProduct : undefined,
   products
-};
+}
