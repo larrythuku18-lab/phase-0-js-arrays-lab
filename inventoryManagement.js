@@ -1,14 +1,14 @@
 // Write your code here
 const products = ['Laptop', 'Phone', 'Headphones', 'Monitor', 'Keyboard']; 
 
-function logFirstProduct(products) {
+function logFirstProduct() {
   console.log(products[0]);
 }
-function updateProductName(products) {
-  products.push('Mouse');
+function updateProductName(index, newName) {
+  products[index] = newName;
   console.log(products);
 }
-function removeLastProduct(products) {
+function removeLastProduct() {
   products.pop();
   console.log(products);
 }
